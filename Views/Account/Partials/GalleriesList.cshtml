@@ -1,0 +1,82 @@
+﻿@model List<GalleryModel>
+@using WeddingShare.Constants
+@using WeddingShare.Views.Account
+@using WeddingShare.Models.Database
+@inject WeddingShare.Helpers.IEncryptionHelper _encryption
+@inject WeddingShare.Helpers.IFileHelper _file
+@inject WeddingShare.Helpers.IUrlHelper _url
+
+@{
+    var userPermissions = User?.Identity?.GetUserPermissions() ?? AccessPermissions.None;
+}
+
+@if (userPermissions.HasFlag(AccessPermissions.Gallery_View) && Model != null && Model.Any())
+{
+    <table class="table table-rounded-border">
+        <tr>
+            <th class="col-5 col-md-3">@_localizer["Name"].Value</th>
+            <th class="col-1 d-none d-md-table-cell">@_localizer["Total"].Value</th>
+            <th class="col-1 d-none d-md-table-cell">@_localizer["Approved"].Value</th>
+            <th class="col-1 d-none d-md-table-cell">@_localizer["Pending"].Value</th>
+            <th class="col-1 d-none d-md-table-cell">@_localizer["Key"].Value</th>
+            <th class="col-2 d-none d-md-table-cell">@_localizer["Space_Percent_Used"].Value</th>
+            <th class="col-7 col-md-3">@_localizer["Actions"].Value</th>
+        </tr>
+        @foreach (var gallery in Model.OrderBy(x => x.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase) ? 0 : 1).ThenBy(x => x.Name.ToLower()))
+        {
+            var append = new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("identifier", gallery.Identifier)
+            };
+
+            var secretKey = await _settings.GetOrDefault(Settings.Gallery.SecretKey, string.Empty, gallery.Id);
+            if (!string.IsNullOrWhiteSpace(secretKey))
+            {
+                var enc = _encryption.IsEncryptionEnabled();
+                append.Add(new KeyValuePair<string, string>("key", enc ? _encryption.Encrypt(secretKey) : secretKey));
+                append.Add(new KeyValuePair<string, string>("enc", enc.ToString().ToLower()));
+            }
+
+            <tr data-gallery-id="@gallery.Id" data-gallery-name="@gallery.Name" data-gallery-key="@secretKey">
+                <td class="gallery-name text-capitalize">@gallery.Name</td>
+                <td class="d-none d-md-table-cell text-center">@gallery.TotalItems</td>
+                <td class="d-none d-md-table-cell text-center">@gallery.ApprovedItems</td>
+                <td class="d-none d-md-table-cell text-center">@gallery.PendingItems</td>
+                <td class="d-none d-md-table-cell text-center">
+                    <i class="fa-solid @(!string.IsNullOrWhiteSpace(secretKey) ? "fa-lock" : "fa-lock-open") m-0"></i>
+                </td>
+                <td class="d-none d-md-table-cell text-center">
+                    @(gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase) ? _file.BytesToHumanReadable(gallery.TotalGallerySize, 2) : $"{_file.BytesToHumanReadable(gallery.TotalGallerySize, 2)} ({gallery.CalculateUsage(await _settings.GetOrDefault(Settings.Gallery.MaxSizeMB, long.MaxValue, gallery?.Id))})")
+                </td>
+                <td>
+                    @if (userPermissions.HasFlag(AccessPermissions.Gallery_View))
+                    {
+                        <i class="btnOpenGallery btn btn-outline-primary fa-solid fa-up-right-from-square" data-url="@_url.GenerateFullUrl(Context?.Request, "/Gallery", append)" data-target="@(await _settings.GetOrDefault(Settings.Basic.LinksOpenNewTab, true) ? "_blank" : "_self")" alt="Open"></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.Gallery_Download))
+                    {
+                        <i class="btnDownloadGallery btn @(gallery.TotalItems > 0 ? "btn-outline-primary" : "btn-outline-disabled") fa-solid fa-download" alt="Download" @(gallery.TotalItems == 0 ? "disabled=disabled" : string.Empty)></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.Gallery_Update))
+                    {
+                        <i class="btn @(gallery.Id > 1 ? "btnEditGallery btn-outline-success" : "btn-outline-disabled") fa-solid fa-pen-to-square" alt="Edit"></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.Gallery_Wipe))
+                    {
+                        <i class="btn @(gallery.Id > 0 && gallery.TotalItems > 0 ? "btnWipeGallery btn-outline-danger" : "btn-outline-disabled") fa-solid fa-broom" alt="Wipe" @(gallery.TotalItems == 0 ? "disabled=disabled" : string.Empty)></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.Gallery_Delete))
+                    {
+                        <i class="btn @(gallery.Id > 1 ? "btnDeleteGallery btn-outline-danger" : "btn-outline-disabled") fa-solid fa-trash-can" alt="Delete"></i>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="col-12 text-center border rounded py-3 py-lg-4">
+        <h3 class="display-6">@_localizer["No_Data"].Value</h3>
+    </div>
+}

@@ -1,0 +1,58 @@
+﻿@model List<UserModel>
+@using WeddingShare.Views.Account
+@using WeddingShare.Models.Database
+
+@{
+    var userPermissions = User?.Identity?.GetUserPermissions() ?? AccessPermissions.None;
+}
+
+@if (userPermissions.HasFlag(AccessPermissions.User_View) && Model != null && Model.Any())
+{
+    <table class="table table-rounded-border">
+        <tr>
+            <th class="col-5 col-md-4">@_localizer["Name"].Value</th>
+            <th class="col-7 col-md-8">@_localizer["Actions"].Value</th>
+        </tr>
+        @foreach (var user in Model.OrderBy(x => x.Username.ToLower()))
+        {
+            <tr data-user-id="@user.Id" data-user-name="@user.Username" data-user-email="@user.Email" data-user-level="@((int)user.Level)">
+                <td class="user-name text-capitalize">@user.Username</td>
+                <td>
+                    @if (userPermissions.HasFlag(AccessPermissions.User_Update))
+                    {
+                        <i class="btn @(user.Id > 1 ? "btnEditUser btn-outline-success" : "btn-outline-disabled") fa-solid fa-pen-to-square" alt="Edit"></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.User_Change_Password))
+                    {
+                        <i class="btn @(user.Id > 1 ? "btnChangePassword btn-outline-success" : "btn-outline-disabled") fa-solid fa-unlock-keyhole" alt="Change Password"></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.User_Reset_MFA))
+                    {
+                        <i class="btn @(user.Id > 1 ? "btnWipe2FA btn-outline-danger" : "btn-outline-disabled") fa-solid fa-key" alt="Wipe 2FA"></i>
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.User_Freeze))
+                    {
+                        if (user.State == AccountState.Frozen)
+                        {
+                            <i class="btn @(user.Id > 1 ? "btnUnfreezeUser btn-outline-primary" : "btn-outline-disabled") fa-solid fa-fire" alt="Unfreeze"></i>
+                        }
+                        else
+                        {
+                            <i class="btn @(user.Id > 1 ? "btnFreezeUser btn-outline-danger" : "btn-outline-disabled") fa-solid fa-snowflake" alt="Freeze"></i>
+                        }
+                    }
+                    @if (userPermissions.HasFlag(AccessPermissions.User_Delete))
+                    {
+                        <i class="btn @(user.Id > 1 ? "btnDeleteUser btn-outline-danger" : "btn-outline-disabled") fa-solid fa-trash-can" alt="Delete"></i>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="col-12 text-center border rounded py-3 py-lg-4">
+        <h3 class="display-6">@_localizer["No_Data"].Value</h3>
+    </div>
+}

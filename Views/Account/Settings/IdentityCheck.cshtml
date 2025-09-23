@@ -1,0 +1,85 @@
+﻿@model IDictionary<string, string>?
+@using WeddingShare.Constants
+
+@if (Model != null && Model.Any())
+{
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_IdentityCheck_Enabled_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.IdentityCheck.Enabled">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.GetValue(Settings.IdentityCheck.Enabled.ToUpper(), "true").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_IdentityCheck_Enabled_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_IdentityCheck_RequireEmail_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.IdentityCheck.RequireEmail">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.GetValue(Settings.IdentityCheck.RequireEmail.ToUpper(), "false").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_IdentityCheck_RequireEmail_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_IdentityCheck_PageLoad_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.IdentityCheck.ShowOnPageLoad">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.GetValue(Settings.IdentityCheck.ShowOnPageLoad.ToUpper(), "true").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_IdentityCheck_PageLoad_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_IdentityCheck_Upload_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.IdentityCheck.RequireIdentityForUpload">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.GetValue(Settings.IdentityCheck.RequireIdentityForUpload.ToUpper(), "false").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_IdentityCheck_Upload_Help"].Value</div>
+        </div>
+    </div>
+}

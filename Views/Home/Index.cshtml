@@ -1,0 +1,71 @@
+﻿@model WeddingShare.Views.Home.IndexModel
+@using WeddingShare.Constants
+@using WeddingShare.Views.Home
+
+@{
+    var singleGalleryMode = await _settings.GetOrDefault(Settings.Basic.SingleGalleryMode, false);
+    var galleryNameDropdown = await _settings.GetOrDefault(Settings.GallerySelector.Dropdown, false);
+    var isDemoMode = await _settings.GetOrDefault(Settings.IsDemoMode, false);
+}
+<section class="py-1 py-lg-5">
+    <div class="container px-3 px-lg-1 my-3 mt-lg-1">
+        @if (isDemoMode)
+        {
+            <div class="alert alert-success text-center mb-2" role="alert">
+                <b>Gallery:</b> default | <b>Secret Key:</b> default
+            </div>
+        }
+
+        <div class="card">
+            <div class="card-header">
+                <h1 class="display-6">@_localizer["Gallery_Selector_Title"].Value</h1>
+            </div>
+            <div class="card-body m-1 m-lg-5">
+                <form id="frmSelectGallery">
+                    @Html.AntiForgeryToken()
+
+                    @if (!singleGalleryMode)
+                    {
+                        <div class="input-group">
+                            @if (galleryNameDropdown && Model?.GalleryNames != null && Model.GalleryNames.Any())
+                            {
+                                <select id="gallery-id" class="form-control form-select capitalize" aria-describedby="gallery-id-help" aria-label="@_localizer["Gallery_Name"].Value">
+                                    @{
+                                        foreach (var gallery in Model.GalleryNames)
+                                        {
+                                            <option value="@gallery">@gallery</option>
+                                        }
+                                    }
+                                </select>
+                            }
+                            else
+                            {
+                                <input type="text" id="gallery-id" class="form-control" aria-describedby="gallery-id-help" placeholder="@_localizer["Gallery_Name_Placeholder"].Value" aria-label="@_localizer["Gallery_Name"].Value" />
+                                @if (await _settings.GetOrDefault(Settings.Basic.GuestGalleryCreation, false) || (User?.Identity != null && User.Identity.IsAuthenticated))
+                                {
+                                    <input type="button" id="btnGenerateGalleryName" class="btn btn-outline-success" value="@_localizer["Generate"].Value" />
+                                }
+                            }
+                        </div>
+                        <div id="gallery-id-help" class="form-text mb-4 mb-lg-5">
+                            @_localizer["Gallery_Name_Help"].Value
+                        </div>
+                    }
+                    else
+                    {
+                        <input type="hidden" id="gallery-id" value="default" />
+                    }
+
+                    <input type="text" id="gallery-key" class="form-control" aria-describedby="gallery-key-help" placeholder="@_localizer["Gallery_Key_Placeholder"].Value" aria-label="@_localizer["Gallery_Key"].Value" />
+                    <div id="gallery-key-help" class="form-text mb-4 mb-lg-5">
+                        @_localizer["Gallery_Key_Help"].Value
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button id="btnVisitGallery" class="btn btn-primary" type="submit">@_localizer["Visit"].Value</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

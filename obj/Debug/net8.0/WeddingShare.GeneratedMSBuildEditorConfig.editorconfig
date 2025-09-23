@@ -1,0 +1,203 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WeddingShare
+build_property.RootNamespace = WeddingShare
+build_property.ProjectDir = C:\WeddingShare-1.7.2\WeddingShare\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\WeddingShare-1.7.2\WeddingShare
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Partials/AuditList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXJ0aWFsc1xBdWRpdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Partials/CustomResources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXJ0aWFsc1xDdXN0b21SZXNvdXJjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Partials/GalleriesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXJ0aWFsc1xHYWxsZXJpZXNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Partials/PendingReviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXJ0aWFsc1xQZW5kaW5nUmV2aWV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Partials/SettingsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXJ0aWFsc1xTZXR0aW5nc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Partials/UsersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXJ0aWFsc1xVc2Vyc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xBbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/BackgroundServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xCYWNrZ3JvdW5kU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Basic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xCYXNpYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/CustomPolicies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xDdXN0b21Qb2xpY2llcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Gotify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xHb3RpZnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/IdentityCheck.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xJZGVudGl0eUNoZWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Languages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xMYW5ndWFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Ntfy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xOdGZ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Slideshow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xTbGlkZXNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Smtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xTbXRwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Settings/Themes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nc1xUaGVtZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Audit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXEF1ZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Data.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Galleries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXEdhbGxlcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Resources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXFJlc291cmNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXFJldmlld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXFNldHRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Account/Tabs/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUYWJzXFVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Gallery/GalleryOptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxHYWxsZXJ5T3B0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Gallery/GalleryPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxHYWxsZXJ5UGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Gallery/GalleryWrapper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxHYWxsZXJ5V3JhcHBlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Gallery/Modes/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxNb2Rlc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Gallery/Modes/Slideshow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxNb2Rlc1xTbGlkZXNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Home/CookiePolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb29raWVQb2xpY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Shared/_2FA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF8yRkEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Shared/_BasicLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYXNpY0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Shared/_Modals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2RhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/Sponsors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WeddingShare-1.7.2/WeddingShare/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,87 @@
+﻿@model DataModel
+@using WeddingShare.Constants
+@using WeddingShare.Helpers
+@using WeddingShare.Views.Account.Tabs
+
+@{
+    var userPermissions = User?.Identity?.GetUserPermissions() ?? AccessPermissions.None;
+    var showMySQLFeatures = !string.Equals("mysql", await _settings.GetOrDefault(Settings.Database.Type, "sqlite"), StringComparison.OrdinalIgnoreCase);
+}
+
+@if (userPermissions.HasFlag(AccessPermissions.Data_View))
+{
+    <section class="pnl-account pnl-account-data pb-2 pb-lg-5">
+        <div class="container px-3 px-lg-1 my-3 my-lg-0">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-6">
+                        @_localizer["Release_Version"].Value
+                    </h1>
+                </div>
+            </div>
+            <div class="row px-3 pb-3">
+                <div class="col-12 border rounded py-3 text-center">
+                    <div class="mx-0 mx-sm-5 px-2 px-xl-5 d-inline-block">
+                        <h5 class="mb-0">@(await _settings.GetReleaseVersion(4))</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @if (showMySQLFeatures && (userPermissions.HasFlag(AccessPermissions.Data_Import)) || userPermissions.HasFlag(AccessPermissions.Data_Export))
+    {
+        <section class="pnl-account pnl-account-data pb-0 pb-lg-4">
+            <div class="container px-3 px-lg-1 my-3 my-lg-0">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-6">
+                            @_localizer["Manage_Data"].Value
+                        </h1>
+                    </div>
+                </div>
+                <div class="row px-3 pb-3">
+                    <div class="col-12 border rounded py-3 text-center">
+                        @if (userPermissions.HasFlag(AccessPermissions.Data_Import))
+                        {
+                            <div class="mx-0 mx-sm-5 px-5 px-xl-5 text-primary d-inline-block">
+                                <i class="btnImport fa-solid fa-upload fa-2x pointer" alt="@_localizer["Import"].Value"></i>
+                                <h6 class="mb-0">@_localizer["Import"].Value</h6>
+                            </div>
+                        }
+                        @if (userPermissions.HasFlag(AccessPermissions.Data_Export))
+                        {
+                            <div class="mx-0 mx-sm-5 px-5 px-xl-5 text-primary d-inline-block">
+                                <i class="btnExport fa-solid fa-download fa-2x pointer" alt="@_localizer["Export"].Value"></i>
+                                <h6 class="mb-0">@_localizer["Export"].Value</h6>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+
+    @if (userPermissions.HasFlag(AccessPermissions.Data_Wipe))
+    {
+        <section class="pnl-account pnl-account-data pb-2 pb-lg-5">
+            <div class="container px-3 px-lg-1 my-3 my-lg-0">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-6">
+                            @_localizer["Danger_Zone"].Value
+                        </h1>
+                    </div>
+                </div>
+                <div class="row px-3 pb-3">
+                    <div class="col-12 border rounded py-3 text-center">
+                        <div class="mx-0 mx-sm-5 px-2 px-xl-5 text-danger d-inline-block">
+                            <i class="btnWipeAllGalleries fa-solid fa-broom fa-2x pointer" alt="@_localizer["Wipe"].Value"></i>
+                            <h6 class="mb-0">@_localizer["Wipe"].Value</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+}

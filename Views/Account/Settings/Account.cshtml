@@ -1,0 +1,41 @@
+﻿@model IDictionary<string, string>?
+@using WeddingShare.Constants
+
+@if (Model != null && Model.Any())
+{
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_Account_Profile_Icon_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.Account.ShowProfileIcon">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.GetValue(Settings.Account.ShowProfileIcon.ToUpper(), "true").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_Account_Profile_Icon_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_Account_Lockout_Attempts_Label"].Value</label>
+            <input class="setting-field form-control" data-setting-name="@Settings.Account.LockoutAttempts" placeholder="5" value="@Model.GetValue(Settings.Account.LockoutAttempts.ToUpper(), "5")" type="number" min="1" max="10" step="1" />
+            <div class="form-text">@_localizer["Settings_Account_Lockout_Attempts_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
+            <label>@_localizer["Settings_Account_Lockout_Mins_Label"].Value</label>
+            <input class="setting-field form-control" data-setting-name="@Settings.Account.LockoutMins" placeholder="60" value="@Model.GetValue(Settings.Account.LockoutMins.ToUpper(), "60")" type="number" min="5" step="10" />
+            <div class="form-text">@_localizer["Settings_Account_Lockout_Mins_Help"].Value</div>
+        </div>
+    </div>
+}

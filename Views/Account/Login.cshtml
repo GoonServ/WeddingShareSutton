@@ -1,0 +1,45 @@
+﻿@using WeddingShare.Views.Account
+
+@{
+    var isDemoMode = await _settings.GetOrDefault(Settings.IsDemoMode, false);
+}
+
+<section class="py-1 py-lg-5">
+    <div class="container px-3 px-lg-1 my-3 mt-lg-1">
+        @if (isDemoMode)
+        {
+            <div class="alert alert-success text-center mb-2" role="alert">
+                <b>Username:</b> demo | <b>Password:</b> demo
+            </div>
+        }
+
+        <div class="card">
+            <div class="card-header">
+                <h1 class="display-6">@_localizer["Login"].Value</h1>
+            </div>
+            <div class="card-body m-1 m-lg-5">
+                <form id="frmLogin">
+                    @Html.AntiForgeryToken()
+
+                    <div class="row mb-4 mb-lg-5">
+                        <div class="col-12">
+                            <input type="text" class="input-username form-control" aria-describedby="login-username-help" placeholder="@_localizer["Login_Username_Placeholder"].Value" aria-label="@_localizer["Login_Username"].Value" />
+                            <div class="form-text">@_localizer["Login_Username_Help"].Value</div>
+                        </div>
+                    </div>
+                    <div class="row mb-4 mb-lg-5">
+                        <div class="col-12">
+                            <input type="password" class="input-password form-control" aria-describedby="login-password-help" placeholder="@_localizer["Login_Password_Placeholder"].Value" aria-label="@_localizer["Login_Password"].Value" />
+                            <div class="form-text">@_localizer["Login_Password_Help"].Value</div>
+                        </div>
+                    </div>
+                    <div class="row mt-4 mt-lg-5">
+                        <div class="col-12">
+                            <button id="btnLogin" class="btn btn-primary w-100" type="submit">@_localizer["Login"].Value</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

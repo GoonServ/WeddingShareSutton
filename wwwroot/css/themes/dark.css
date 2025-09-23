@@ -1,0 +1,102 @@
+﻿:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-rgb: 33, 37, 41;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-color: #FFF;
+    --bs-body-bg: #222222;
+    --bs-quote-color: #EFEFEF;
+    --bs-quote-bg-color: #777777;
+}
+
+.navbar {
+    --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
+    --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.9);
+    --bs-navbar-bg-color: 25, 25, 25;
+    --bs-navbar-border-color: #333333;
+}
+
+    .navbar .text-secondary {
+        --bs-secondary-rgb: 200, 200, 200;
+    }
+
+.card {
+    --bs-card-bg: #555555;
+}
+
+.card .card-header {
+    --bs-card-cap-color: #BABABA;
+}
+
+.modal-content {
+    --bs-modal-bg: #555555;
+}
+
+.form-control {
+    --bs-form-control-color: #000000;
+    --bs-form-control-bg-color: #BABABA;
+}
+
+.form-text {
+    --bs-form-text-color: #BABABA;
+}
+
+[class*="btn-outline-"] {
+    --bs-btn-bg: #AAAAAA;
+}
+
+.file-uploader {
+    --bs-file-uploader-bg-color: 100, 100, 100;
+}
+
+.accordion {
+    --bs-accordion-bg: #555555;
+    --bs-accordion-btn-color: #FFFFFF;
+}
+
+    .accordion .accordion-body {
+        color: #FFFFFF;
+    }
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #999999;
+}

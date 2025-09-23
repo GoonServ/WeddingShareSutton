@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Ja šī problēma turpinās, lūdzu sazinieties ar tīmekļa administratoru</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Opps, izskatās, ka notikusi negaidīta kļūda...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Izskatās, ka jums nav tiesību apskatīt šo lapu...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Piekļuve liegta</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Sniegtā slepenā atslēga bija nepareiza</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Nederīga slepenā atslēga</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Norādītā gelerija neeksistē un jums nav atļauju to izveidot</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Piekļuve liegta</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Jūs esat sasniedzis maksimālo galerijas izveidošanas ierobežojumu</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>Sasniegtais ierobežojums</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>Norādītā galerija neeksistē</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Nederīga galerija</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Pieņemt</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Darbība</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Darbības</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Pievienot</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Apstiprināt</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Apstiprināts</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Revīzija</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Bulk apstiprināja visas gaidāmās pārskatīšanas</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Bulk noraidīja visas vēl nepieņemtās atsauksmes</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>Apmeklētājs ir apstiprinājis sīkdatņu izmantošanu</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>Izveidota galerija</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>Izveidots jauns lietotājs</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>Dzēsts pielāgots resurss</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>Augšupielādēts pielāgots resurss</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>Dzēsta galerija</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Dzēsts lietotājs</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>Eksportēts rezerves kopijas</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>Konstatēts neveiksmīgas pieteikšanās mēģinājums</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>Neizdevās pieteikties mēģinājumu skaita atiestatīšana</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Froze lietotājs</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>Importēta rezerves kopija</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>apstiprināts galerijā</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>svītrots galerijā</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>noraidīts galerijā</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Cik žurnālus rādīt</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Limits</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Neizdevās iegūt audita sarakstu</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>Atsaukts</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Pārbaudes žurnāli</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>Pievienots vairāku faktoru to kontam</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Piedāvātā pareizā daudzfaktoru marķierierīce</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Atstatīt daudzfaktoru atslēgu</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Atstatīt daudzfaktoru lietotājam</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Filtrēt žurnālus pamatojoties uz meklēšanas terminu</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Meklēšanas termins</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>Atjaunināts galerijas iestatījums</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Unfroze lietotājs</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>Atjaunināta galerija</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Atjaunināts lietotājs</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>Lietotājs pieteicies</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Iesaistījās visās galerijās</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>Wiped galerija</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Pieejamās galerijas</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Neizdevās pārbaudīt konta stāvokli</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Tīrs</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Vai tiešām vēlaties notīrīt šo galeriju?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Spiediet šeit, lai izvēlētos augšupielādējamos failus</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Aizvērt</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Lai nodrošinātu piekļuvi, sazinieties ar vietnes administratoru</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Neizdevās reģistrēt audita ziņojumu sīkdatņu apstiprināšanai</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Sīkdatņu politika</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Izmantojot šo tīmekļa vietni, jūs piekrītat pamata sīkdatņu izmantošanai saskaņā ar mūsu sīkdatņu lietošanas noteikumiem. Lai uzzinātu vairāk, lūdzu, skatiet mūsu</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Izveidot</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Jums šobrīd nav piekļuves</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Pielāgoti resursi</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Neizdevās iegūt pielāgotus resursus</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Lūdzu izvēlieties augšupielādējamo attēla failu</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Augšupielādēt pielāgotu resursu</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Neizdevās izdzēst pielāgotu resursu</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Neizdevās augšupielādēt pielāgotu resursu</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Bīstamā zona</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Noklusētais</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Vai tiešām vēlaties dzēst šo galeriju?</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Šī ir demo versija. Visu konfigurāciju periodiski noslauka, lai nodrošinātu tīru šīferi nākamajiem testētājiem.</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Iznīcinoša darbība</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Jums nav tiesību lejupielādēt šo galeriju</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Vilkt</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Atrasts dublikāts</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E- pasta adrese</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksports</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Neizdevās izveidot galeriju</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Neizdevās izveidot lietotāju</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Neizdevās izdzēst galeriju</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Neizdevās izdzēst lietotāju</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Neizdevās lejupielādēt galeriju</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Neizdevās lejupielādēt galeriju. Slepenā atslēga nebija derīga</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Neizdevās atjaunināt galeriju</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Neizdevās atjaunināt lietotāju</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Neizdevās eksportēt datus</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Neizdevās atrast failu</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Neizdevās importēt datus</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Neizdevās pārskatīt ierakstu</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Neizdevās atjaunināt iestatījumus</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Neizdevās notīrīt galerijas</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Neizdevās noslaucīt galeriju</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Neizdevās lejupielādēt FFMPEG uz ceļu</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Mēģināts ģenerēt video sīktēlu, bet FFMPEG vēl nav pabeidzis lejupielādi. Ja šī ir jauna instalēšana, lūdzu, gaidiet, lai lejupielāde pabeigtu un izlaisti sīktēli tiks ģenerēts fona skeneris</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Neizdevās augšupielādēt failu</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>Fails ar tādu pašu nosaukumu jau eksistē</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrs</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galerijas</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galerija</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Pieprasītā galerija netika atrasta vai neeksistē</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Šobrīd nav kopīgotu atmiņu</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Šobrīd nav kopīgotu atmiņu, kāpēc augšupielādēt savējo augstāk!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Galerija ir pilna un ir pārsniegusi maksimālo izmēru</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Galerijas atslēga</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Lūdzu ievadiet slepeno atslēgu.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Šeit ievadiet slepeno atslēgu</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>Sasniegts maksimālais pieļaujamais galeriju skaits</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Neizdevās iegūt galerijas sarakstu</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Galerijas nosaukums</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Galerijas nosaukums jau eksistē</value>
+  </data>
+  <data name="Gallery_Name_Help" xml:space="preserve">
+    <value>Lūdzu ievadiet galerijas nosaukumu, kuru vēlaties apmeklēt.</value>
+  </data>
+  <data name="Gallery_Name_Placeholder" xml:space="preserve">
+    <value>mana kāzu galerija</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Galerijas Selektors</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Vispārējs</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupa</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Gadījās kļūda ielādējot mājaslapu</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Neizdevās iestatīt lietotāja identitātes sesiju - Name</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Neizdevās augšupielādēt attēlus</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importēt</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Norādītā piekļuve marķierierīcei nebija derīga</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Faila tips nav derīgs</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Nederīga galerija Id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Nederīga galerijas atslēga</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>Pieprasījums tika veikts, izmantojot nederīgu slepeno atslēgu</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Atslēga</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Saikne</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Pieteikties</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Neizdevās pieteikties lietotājam iekš</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Lūdzu ievadiet konta paroli.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Parole</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Lūdzu ievadiet konta lietotājvārdu.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Lietotājvārds</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Atteikties</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Pārvaldīt datus</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Maksimālais faila izmērs ir</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Locekļi</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Neizdevās iestatīt 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Galerijas nosaukums nevar būt tukšs</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Pārskatīšana</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>Nav augšupielādētu pielāgotu resursu</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Nav datu</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Netika atrasti faili augšupielādēšanai</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Vēl nav izveidotas galerijas</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Nav augšupielādes gaida pārskatīšanu</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Gaida</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Gaida augšupielādes</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Neizdevās saņemt gaidāmās augšupielādes</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Noraidīt</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Laidiena versija</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Pārdēvēt</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Resursi</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Pārskatīšana</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Saglabāt QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Neizdevās saglabāt pielāgotu resursu</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Neizdevās saglabāt attēlu galerijā</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Skenējiet QR kodu ar tālruni, lai kopīgotu attēlus</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Iestatījumi</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Konts</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Cik neveiksmīgu pieteikšanās pieteikumu pirms lietotāja bloķēšanas</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Izslēgšanas mēģinājumi</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Cik ilgi lietotājam jābūt bloķētam</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Noslēguma protokols</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Ja galvenē parādās profila ikona</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Profila ikona</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Brīdinājumi</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>Ja ziņojumi tiek nosūtīti, slēdzot kontus</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Konta slēgšana</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>Ja ziņojumi jānosūta, kad tiek veikta destruktīva darbība</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Destruktīvas darbības</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>Ja ziņojumi tiek nosūtīti par neveiksmīgiem pieteikšanās mēģinājumiem</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Neizdevās pieteikties</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>Ja tiek sūtīti brīdinājumi, ja tiek gaidīta pārskatīšana</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Gaida pārskatīšanu</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Pamata pakalpojumi</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Attīra pagaidu failus</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Tīrīšana</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>Paņem failus iemestus tieši galerijas mapē</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Direktorijas skeneris</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Nosūta ziņojumu par galeriju statistiku</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>E-pasta ziņojumi</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Vienkāršs</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>Saitēs un paziņojumos izmantojamā bāze Url</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>Bāzes Url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>Vai nosūtīt e-pasta ziņojumu ar galerijas statistiku</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>E- pasta ziņojums</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>Jā Http lietotāji spiesti https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Piespiedu Https</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Kā lietotāji izvēlas galeriju</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Galerijas Selektors Veids</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>Ja redzama noklusētā galerijas opcija</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Rādīt noklusēto galeriju</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Vai viesiem jāļauj veidot jaunas galerijas</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Viesu galerija Radīšana</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>Ja slepeno atslēgu iekļauj QR kodā</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>Nedroši QR kodi</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>Jāklikšķina uz mājas saiti novirzīt lietotāju</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Nospiežama mājas saite</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>Vai saites atvērt jaunās cilnēs</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Jaunas cilnes saites</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>Ikona, ko rādīt galvenēs un cilnēs</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Logotips</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Cik galerijas ir lietotāji atļauts izveidot</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Makss galerijas skaits</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Ja būtu viena vai vairākas galerijas</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Galerijas režīms</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Maksimums pikseļu jebkurā virzienā sīktēliem</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Sīktēla izšķirtspēja</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>Nosaukums, ko rādīt galvenēs un cilnēs</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>Sīkdatņu politikas informācijas lapā attēlojamais saturs</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Pielāgota sīkdatņu politika</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Pielāgotā politika</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Neizdevās iegūt iestatījumus</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Galerijas noklusējumi</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Kādus failu tipus viesi drīkst augšupielādēt</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Atļautie failu tipi</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Attēls, ko rādīt galerijas augšā</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Banner attēls</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Ja viesiem ir iespēja starp failu izvēlētāju vai kameru</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Fotoaparāta augšupielādes</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>Rādāmo kolonu skaits</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Kolonnu skaits</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Kas ir noklusētais galerijas filtrs</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Noklusētais filtrs</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Kas ir noklusētā galerijas grupa</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Noklusētā grupa</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Kas ir noklusētais galerijas rīkojums</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Noklusētā kārtība</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Kāds ir noklusētais galerijas skats</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Noklusētais skats</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>Vai viesiem ir atļauts lejupielādēt datus</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Atļaut lejupielādi</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>Galerijas platums</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Ekrāna tips</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Pēc cik ilgi galerija atsvaidzināt, lai iegūtu jaunu saturu</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Dīkstāves atsvaidzinātāji</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>Maksimālais rādījamo ierakstu skaits lapā</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Vienības uz vienu lapu</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Kas ir lielākais no MB augšupielādētais fails var būt</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Maks. faila izmērs (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>Cik liela MB ir galerijai ļauts augt</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Max galerijas izmērs (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Ja dublikāti tiek automātiski noraidīti</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Novērst dublikātus</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Kad skeneris kāda kārtība būtu preces parādās</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>Noklusētais QR Kārtot</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Pēc skenēšanas, kādu izkārtojumu skatīt lietotājam</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>Noklusētais QR Skats</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>Ja tiek parādīts QR kods</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Rādīt QR kodu</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>Ja QR kods norāda attēlošanas valodu</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Iekļaut kultūru QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Citāts, ko rādīt galerijas augšā</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Citāts</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Vai preces ir jāpārskata, pirms tie parādās uz vietas</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Nepieciešama pārskatīšana</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>Ja noraidītie priekšmeti jāuzglabā vēlākai lietošanai</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Saglabāt noraidītās vienības</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>Ja pārskata skaitītājs ir redzams</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Atkārtojuma skaitītājs</value>
+  </data>
+  <data name="Settings_Gallery_SecretKey_Help" xml:space="preserve">
+    <value>Parole galerijas atslēgšanai</value>
+  </data>
+  <data name="Settings_Gallery_SecretKey_Label" xml:space="preserve">
+    <value>Slepenā atslēga</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>Vai lietotājam vajadzētu būt iespējai filtrēt un grupēt datu nesēju?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Rādīt filtrus</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>Ja nosaukums redzams galerijas augšpusē</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Rādīt nosaukumu</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Ja viesiem ir atļauts augšupielādēt ierakstus</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Atļaut augšupielādes</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Ierobežot augšupielādes uz konkrētu periodu</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Augšupielādēt periodus</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Ja tiek nosūtīti Ntfy brīdinājumi</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>Gotify servera adrese</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Mērķa kritērijs</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>Brīdinājumu nozīme</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Prioritāte</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>Autentificēšanai izmantotais marķieris</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Piekļuves marķierierīce</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Identitātes pārbaude</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Prasīt lietotājiem savu vārdu</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>Vai lapas ielādē rādīt identitātes pārbaudi</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Lapas ielādes pieprasījums</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Ja lietotājiem ir jāievada e-pasta adrese</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Nepieciešama e- pasta adrese</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Ja nepieciešama identitātes pārbaude, lai augšupielādētu datu nesēju</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Augšupielādēt pieprasījumu</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Valodas</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>Noklusētā tīmekļa vietnes valoda, ja neviens nav izvēlēts</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Noklusētā valoda</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Atļaut lietotājiem mainīt valodu</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Ja tiek nosūtīti Ntfy brīdinājumi</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Ntfy servera adrese</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Mērķa kritērijs</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>Brīdinājumu nozīme</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Prioritāte</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>Autentificēšanai izmantotais marķieris</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Piekļuves marķierierīce</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>Par tematu, kam jāsūta brīdinājumi</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Temats</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>Vai lietotājam vajadzētu redzēt GDPR stila izlec?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Slīdrāde</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Cik ilgi būtu jāpāriet starp priekšmetstikliņiem</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Izgaist</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Cik ilgi sekundēs rādīt slīdni pirms pārvietošanas uz nākamo slīdni</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Intervāls</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>Maksimālais priekšmetstikliņu skaits, kas jāiekļauj</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Limits</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>Ja QR kods beigās tiek noraidīts, lai viesi varētu skenēt</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Iekļaut koplietošanas slīdni</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>E- pasts</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>Lietotājam draudzīgs sūtītāja vārds</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Rādīt nosaukumu</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>E-pasta ziņojumu nosūtīšana</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>Ziņojuma e-pasta adrese</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Sūtītājs</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>SMTP nodrošinātāja resursdatora nosaukums</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Dators</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>Parole pieprasījuma autentificēšanai</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Parole</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>SMTP nodrošinātāja izmantotā osta</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Osta</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>Ar komatu atdalīts e- pasta adrešu saraksts</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Saņēmēji</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>Vai SMTP nodrošinātājs izmanto SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Lietot SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>Pieprasījuma autentificēšanai izmantotais lietotājvārds</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Lietotājvārds</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Tēmas</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>Noklusētā mājas lapas tēma, ja neviens nav izvēlēts</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Noklusētais Tēma</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Atļaut lietotājiem mainīt tēmu</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Aktivizēts</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Akciju kods</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Kārtot</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Lietojums</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Sponsori</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>Pašlaik sponsoru nav. Varbūt kļūsi par pirmo!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Neizdevās ielādēt sponsoru sarakstu</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Atbalstītāji</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Laika zīmogs</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Kopā</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Nezināma pārskatīšanas darbība</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Atjaunināt</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>&amp; Projekts</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Augšupielādējis</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Augšupielāde</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Lietotājs</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>Norādītā parole un uzticības parole nesakrīt</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Pievienot lietotāju ar tādu pašu nosaukumu jau eksistē</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Lietotājvārds</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Lietotāji</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Neizdevās iegūt lietotāju sarakstu</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Skats</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Apmeklējums</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Brīdinājums</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Noslaucīt</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Vai tiešām gribi noslaucīt visas galerijas?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Vai tiešām gribi noslaucīt šo galeriju?</value>
+  </data>
+</root>

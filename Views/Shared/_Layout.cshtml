@@ -1,0 +1,264 @@
+@using WeddingShare.Constants
+@using WeddingShare.Helpers
+@inject WeddingShare.Helpers.IConfigHelper _config
+@inject WeddingShare.Helpers.ILanguageHelper _language
+@inject WeddingShare.Helpers.Database.IDatabaseHelper _database
+
+@{
+    var galleryIdentifier = (!string.IsNullOrWhiteSpace(ViewBag?.GalleryIdentifier) && !ViewBag.GalleryIdentifier.Equals("All", StringComparison.OrdinalIgnoreCase)) ? ViewBag.GalleryIdentifier.ToLower() : "default";
+    var galleryId = (_database?.GetGalleryId(galleryIdentifier)?.Result) ?? 1;
+
+    var title = await _settings.GetOrDefault(Settings.Basic.Title, "WeddingShare", galleryId);
+    var isDemoMode = await _settings.GetOrDefault(Settings.IsDemoMode, false);
+
+    var logo = "/images/logo.png";
+    try
+    {
+        logo = await _settings.GetOrDefault(Settings.Basic.Logo, "/images/logo.png", galleryId);
+    }
+    catch
+    {
+        logo = "/images/logo.png";
+    }
+
+    var viewMode = ViewBag.ViewMode != null ? ViewBag.ViewMode : ViewMode.Default;
+
+    string theme = "default";
+    try
+    {
+        var selected = Context?.Request?.Cookies["Theme"]?.Trim() ?? await _settings.GetOrDefault(Settings.Themes.Default, "default");
+        foreach (Themes t in Enum.GetValues(typeof(Themes)))
+        {
+            if (selected.Equals(t.ToString(), StringComparison.OrdinalIgnoreCase))
+            {
+                theme = t.ToString().ToLower();
+                break;
+            }
+        }
+    }
+    catch
+    {
+        theme = "default";
+    }
+
+    string? culture;
+    try
+    {
+        culture = Context?.Session?.GetString(SessionKey.SelectedLanguage)?.Trim();
+        if (string.IsNullOrEmpty(culture))
+        {
+            culture = await _language.GetOrFallbackCulture(string.Empty, await _settings.GetOrDefault(Settings.Languages.Default, "en-GB"));
+
+            <script>
+                (function () {
+                    document.addEventListener('DOMContentLoaded', function () {
+                        let culture = window.navigator.language;
+                        if (culture !== undefined && culture.length > 0) {
+                            $.ajax({
+                                type: "POST",
+                                url: '/Language/ChangeDisplayLanguage',
+                                data: { culture: culture },
+                                success: function (data) {
+                                    if (data.success) {
+                                        window.location.reload();
+                                    }
+                                }
+                            });
+                        }
+                    });
+                })();
+            </script>
+        }
+    }
+    catch
+    {
+        culture = "en-GB";
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        
+        <title>@title</title>
+        
+        <link rel="icon" type="image/png" href="@logo" />
+        <link rel="stylesheet" href="~/css/bootstrap-icons.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/template.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/media-viewer.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/jquery.loading.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/fontawesome.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/fontawesome.regular.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/fontawesome.solid.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/fontawesome.brands.min.css" asp-append-version="true" />
+        @if (!string.Equals("default", theme, StringComparison.OrdinalIgnoreCase))
+        {
+            <link rel="stylesheet" href="~/css/themes/@(theme).css" asp-append-version="true" />
+        }
+        
+        <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-loading/jquery.loading.min.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-qrcode/jquery.qrcode.min.js" asp-append-version="true"></script>
+        <script src="~/lib/fontawesome/fontawesome.regular.min.js" asp-append-version="true"></script>
+        <script src="~/lib/fontawesome/fontawesome.solid.min.js" asp-append-version="true"></script>
+        <script src="~/lib/fontawesome/fontawesome.brands.min.js" asp-append-version="true"></script>
+        <script src="~/js/lang/localization.js" asp-append-version="true"></script>
+        <script src="~/js/lang/@(culture).js" asp-append-version="true"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/js/popup.js" asp-append-version="true"></script>
+        <script src="~/js/media-viewer.js" asp-append-version="true"></script>
+
+        @if (User?.Identity != null && User.Identity.IsAuthenticated)
+        {
+            <script src="~/js/account.js" asp-append-version="true"></script>
+        }
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-3 px-lg-5 @(viewMode == ViewMode.Presentation || viewMode == ViewMode.Slideshow ? "justify-content-center" : string.Empty)">
+                <a class="navbar-brand" href="@(await _settings.GetOrDefault(Settings.Basic.HomeLink, true) ? "/" : "#")">
+                    <img class="navbar-logo" src="@logo" onerror="this.onerror=null;this.src='/images/logo.png';" />
+                    <span class="navbar-title">@title</span>
+                </a>
+                
+                @if (viewMode != ViewMode.Presentation && viewMode != ViewMode.Slideshow)
+                {
+                    <div class="presentation-hidden">
+                        <div class="mx-0 mx-lg-4 my-1 float-start">
+                            @if (await _settings.GetOrDefault(Settings.Languages.Enabled, true))
+                            {
+                                <i class="change-language fa-solid fa-earth-europe fa-1x text-secondary pointer mx-2"></i>
+                            }
+                            @if (await _settings.GetOrDefault(Settings.Themes.Enabled, true))
+                            {
+                                <i class="change-theme fa-solid @(string.Equals("default", theme, StringComparison.OrdinalIgnoreCase) ? "fa-moon" : "fa-sun") fa-1x text-secondary pointer mx-2"></i>
+                            }
+                            @if (await _settings.GetOrDefault(Settings.IdentityCheck.Enabled, true))
+                            {
+                                var requireEmail = await _settings.GetOrDefault(Settings.IdentityCheck.RequireEmail, false);
+                                <i class="change-identity fa-solid fa-id-card fa-1x text-secondary pointer mx-2" data-identity-name="@Context?.Session.GetString(SessionKey.ViewerIdentity)" @(requireEmail ? $"data-identity-email={Context?.Session.GetString(SessionKey.ViewerEmailAddress)}" : string.Empty)></i>
+                            }
+                            @if (User?.Identity != null && User.Identity.IsAuthenticated)
+                            {
+                                <i class="change-2fa fa-solid fa-key fa-1x text-secondary pointer mx-2" data-mfa-set="@(bool.Parse(Context?.Session.GetString(SessionKey.MultiFactorTokenSet)?.ToLower() ?? "false").ToString().ToLower())"></i>
+                            }
+                        </div>
+                        <div class="profile-icon my-1 m-lg-0 float-end">
+                            @if (await _settings.GetOrDefault(Settings.Account.ShowProfileIcon, true))
+                            {
+                                if (!string.IsNullOrWhiteSpace(Context?.Request.Path.Value) && Context.Request.Path.Value.Contains("/Account", StringComparison.OrdinalIgnoreCase) && !Context.Request.Path.Value.Contains("/Login", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    <a href="@Url.Action("Logout", "Account")">
+                                        <i class="fa-solid fa-door-open fa-2x text-danger"></i>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("Login", "Account")">
+                                        <i class="fa-solid fa-circle-user fa-2x text-secondary"></i>
+                                    </a>
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <script>
+                        (function () {
+                            document.addEventListener('DOMContentLoaded', function () {
+                                var presentationTimeout = setTimeout(function () {
+                                    $('.presentation-hidden').fadeOut(500);
+                                    $('body').css('cursor', 'none');
+                                }, 1000);
+
+                                $(document).off('mousemove').on('mousemove', function () {
+                                    $('.presentation-hidden').fadeIn(200);
+                                    $('body').css('cursor', 'default');
+
+                                    clearTimeout(presentationTimeout);
+                                    presentationTimeout = setTimeout(function () {
+                                        $('.presentation-hidden').fadeOut(500);
+                                        $('body').css('cursor', 'none');
+                                    }, 1000);
+                                });
+                            });
+                        })();
+                    </script>
+                }
+            </div>
+        </nav>
+
+        <!-- Body -->
+        <div id="main-wrapper">
+            @if (isDemoMode)
+            {
+                <div class="alert alert-warning text-center" role="alert">
+                    <i class="fa fa-warning mx-3"></i><b>@(_localizer["Warning"].Value.ToUpper()):</b> @_localizer["Demo_Message"].Value
+                </div>
+            }
+
+            @{
+                try
+                {
+                    var errorMessage = ViewBag.ErrorMessage;
+                    if (!string.IsNullOrWhiteSpace(errorMessage))
+                    {
+                        <div class="alert alert-danger d-flex align-items-center" role="alert">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                            <div>
+                                @errorMessage
+                            </div>
+                        </div>
+                    }
+                }
+                catch { }
+            }
+
+            @RenderBody()
+        </div>
+
+        <partial name="~/Views/Shared/_Modals.cshtml" model="null" />
+        <partial name="~/Views/Shared/_2FA.cshtml" model="null" />
+
+        @if (await _settings.GetOrDefault(Settings.IdentityCheck.Enabled, true) && await _settings.GetOrDefault(Settings.IdentityCheck.ShowOnPageLoad, true) && string.IsNullOrWhiteSpace(Context?.Session?.GetString(SessionKey.ViewerIdentity)))
+        {
+            <script>
+                displayIdentityCheck(false);
+            </script>
+        }
+
+        <!-- Footer -->
+        <footer class="py-1">
+            <div class="container">
+                <p class="m-0 text-white">
+                    <span class="float-none">
+                        <a class="text-link text-light" href="https://github.com/Cirx08/WeddingShare" title="Copyright Cirx08" target="_blank"><i class="fa-brands fa-github"></i> WeddingShare v@(await _settings.GetReleaseVersion(3)) &copy; Cirx08 @DateTime.UtcNow.Year</a>
+                    </span>
+                    <span class="float-end">
+                        <a class="text-link text-light" href="https://github.com/sponsors/Cirx08" title="GitHub Sponsors" target="_blank"><img class="fa-brands fa-sponsor-badge" src="/images/github.png" /></a>
+                        <a class="text-link text-light" href="https://buymeacoffee.com/cirx08" title="BuyMeACoffee" target="_blank"><img class="fa-brands fa-sponsor-badge" src="/images/buymeacoffee.gif" /></a>
+                    </span>
+                </p>
+            </div>
+        </footer>
+
+        <partial name="_CookieConsentPartial" />
+
+        <!-- Sponsors Button -->
+        <i id="btn-show-sponsors" class="fa-solid fa-bolt"></i>
+        
+        <!-- JS -->
+        @await RenderSectionAsync("Scripts", required: false)
+
+    </body>
+</html>

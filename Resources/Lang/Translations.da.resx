@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Hvis dette problem fortsætter, bedes du kontakte web-administratoren</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Opps, det ser ud til at der opstod en uventet fejl...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Det ser ud til, at du ikke har tilladelse til at se den side...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Adgang nægtet</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Den medfølgende hemmelige nøgle var forkert</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Ugyldig hemmelig nøgle</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Den angivne gellery eksisterer ikke, og du har ikke tilladelser til at oprette det</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Adgang nægtet</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Du har nået den maksimale gallerigrænse</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>Grænse Nået</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>Det angivne galleri findes ikke</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Ugyldigt galleri</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accepter</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Handling</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Handlinger</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Godkendt</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Godkendt</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Revision</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Bulk godkendte alle verserende anmeldelser</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Bulk afviste alle verserende anmeldelser</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>En besøgende har godkendt brugen af cookies</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>Oprettet galleri</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>Oprettet ny bruger</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>Slettet brugerdefineret ressource</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>Uploadet brugerdefineret ressource</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>Slettede galleri</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Slettet bruger</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>Eksporteret sikkerhedskopi</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>Mislykkedes login forsøg opdaget</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>Mislykkede login- forsøg tæller nulstilling</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Froze bruger</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>Importeret en sikkerhedskopi</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>godkendt på galleri</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>slettet i galleri</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>afvist på galleriet</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Hvor mange logfiler der skal vises</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Grænse</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Kunne ikke få revisionslisten</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>Lokket ud</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Audit Logs</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>Tilføjet multifaktor til deres konto</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Forudsat korrekt multifaktor token</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Nulstil deres multifaktornøgle</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Nulstil multi- faktor for brugeren</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Filtrér logfiler baseret på et søgeudtryk</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Søgebetegnelse</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>Opdateret indstilling til galleri</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Unfroze bruger</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>Opdateret galleri</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Opdateret bruger</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>Bruger logget ind</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Slebet alle gallerier</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>Trådnet galleri</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Tilgængelige gallerier</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Kunne ikke kontrollere kontotilstand</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Ren</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Er du sikker på, du vil rense galleriet?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Klik her for at vælge filer til at uploade</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Kontakt venligst en site administrator for at give adgang</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Kunne ikke logge en revisionsmeddelelse for cookie-godkendelse</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Cookie-politik</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Ved at bruge denne hjemmeside accepterer du vores brug af grundlæggende cookies i overensstemmelse med vores vilkår for cookie brug. For at finde ud af mere se venligst vores</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Opret</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Du har i øjeblikket ikke adgang</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Brugerdefinerede ressourcer</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Kunne ikke få brugerdefinerede ressourcer</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Vælg en billedfil at uploade</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Upload brugerdefineret ressource</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Kunne ikke slette brugerdefinerede ressource</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Kunne ikke uploade brugerdefinerede ressource</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Fare-zone</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Er du sikker på, du vil slette dette galleri?</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Det er en demo-version. Alle konfigurationer aftørres regelmæssigt for at sikre en ren skifer til fremtidige testere.</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Destruktiv handling udført</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Du har ikke tilladelse til at downloade dette galleri</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Træk</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Duplikeret fil detekteret</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E- mail- adresse</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Kunne ikke oprette galleri</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Kunne ikke oprette bruger</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Kunne ikke slette galleri</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Kunne ikke slette brugeren</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Kunne ikke downloade galleri</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Kunne ikke downloade galleri. Den hemmelige nøgle var ugyldig</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Kunne ikke opdatere galleri</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Kunne ikke opdatere brugeren</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Kunne ikke eksportere data</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Kunne ikke finde filen</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Kunne ikke importere data</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Kunne ikke gennemse elementet</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Kunne ikke opdatere indstillinger</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Kunne ikke tørre gallerier</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Kunne ikke tørre galleri</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Kunne ikke hente FFMPEG til stien</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Forsøgte at generere video miniature, men FFMPEG har ikke afsluttet download endnu. Hvis dette er en frisk installation, skal du vente på download for at fuldføre og glemte miniaturer vil blive genereret af baggrundsscanneren</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Kunne ikke uploade fil</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>En fil med det samme navn findes allerede</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Gallerier</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galleri</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Det ønskede galleri blev ikke fundet eller eksisterer ikke</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Der er i øjeblikket ingen minder delt</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Der er i øjeblikket ingen minder delt, hvorfor uploader du ikke din ovenfor!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Galleri er fuld og har overskredet den maksimale størrelse af</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Gallery Key</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Indtast venligst den hemmelige nøgle.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Indtast hemmelig nøgle her</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>Det maksimalt tilladte antal gallerier er nået</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Kunne ikke få gallerilisten</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Galleringsnavn</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Galleri navn findes allerede</value>
+  </data>
+  <data name="Gallery_Name_Help" xml:space="preserve">
+    <value>Indtast venligst navnet på det galleri, du vil besøge.</value>
+  </data>
+  <data name="Gallery_Name_Placeholder" xml:space="preserve">
+    <value>min-bryllups-galleri</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Galleringsvælger</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generér</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>En fejl opstod indlæsning af hjemmesiden</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Kunne ikke indstille brugeridentitetssession - Navn</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Kunne ikke uploade billeder</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importér</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Den angivne adgangsbillet var ugyldig</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Filtype er ugyldig</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Ugyldigt galleri Id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Ugyldig galleri nøgle</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>En anmodning blev fremsat ved hjælp af en ugyldig hemmelig nøgle</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Nøgle</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Kunne ikke logge brugeren ind</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Indtast venligst kontopassword.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Indtast venligst kontobrugernavn.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Håndtér data</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Maks. filstørrelse er</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Medlemmerne</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Kunne ikke oprette 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Galleringsnavn kan ikke være tomt</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Nye elementer afventer revision</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>Ingen brugerdefinerede ressourcer uploadet</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Ingen data</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Ingen filer blev opdaget til upload</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Ingen gallerier skabt endnu</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Ingen uploads afventer revision</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Afventer</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Afventer uploads</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Kunne ikke få ventende uploads</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Afvis</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Udgivelsesversion</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Ressourcer</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Revision</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Gem QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Kunne ikke gemme brugerdefinerede ressource</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Kunne ikke gemme billede til galleri</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Scan QR-koden med telefonen for at dele dine billeder</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Hvor mange fejlbehæftede loginer før en bruger blokeres</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Lockout Forsøg</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Hvor længe skal en bruger blokeres</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Lockout-protokoller</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Skal profilikonet vises i overskriften</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Profil- ikon</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Indberetninger</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>Skal der sendes indberetninger, når konti er låst ude</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Kontolockout</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>Skal indberetninger sendes, når en destruktiv handling udføres</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Destruktive foranstaltninger</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>Skal indberetninger sendes ved mislykkede login forsøg</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Mislykkede login</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>Skal der sendes indberetninger, hvis et nyt punkt er under behandling</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Afventer revision</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Billedtjenester</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Rydder midlertidige filer op</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Rengøring</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>Opfanger filer faldt direkte ind i gallerimappen</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Mappescanner</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Sender en rapport om galleristatistik</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>E- mail- rapporter</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Grundlæggende</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>Grundlaget Url skal anvendes i links og meddelelser</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>Base Url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>Skal en e-mail-rapport sendes ud med galleristatistik</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>E-mail-rapport</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>Bør Http brugere være tvunget til at https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Force Https</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Hvordan brugere vælger et galleri</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Galleringsvælger Type</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>Hvis standard- galleri tilvalget er synligt</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Vis standard- galleri</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Skal gæsterne have lov til at skabe nye gallerier</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>Skal den hemmelige nøgle indgå i QR-koden</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>Usikre QR-koder</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>Bør klikke på home link omdirigere brugeren</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Clickable Home Link</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>Skal links åbne i nye faneblade</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Nyt fanebladskort</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>Ikonet der skal vises i overskrifter og faneblade</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Hvor mange gallerier er brugere lov til at oprette</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Maks. galleritæller</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Skal der være et eller flere gallerier</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Galleringstilstand</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Maksimalt pixels i enhver retning for miniaturer</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Miniatureopløsning</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>Navnet der skal vises i overskrifter og faneblade</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>Indholdet at vise på CookiePolicy info side</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Brugerdefineret cookie-politik</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Brugerdefineret politik</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Kunne ikke få indstillinger</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Gallery Standard</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Hvilke filtyper er gæster lov til at uploade</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Tilladte filtyper</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Et billede der skal vises øverst på galleriet</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Banner- billede</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Skal gæsterne have mulighed mellem fil picker eller kamera</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Kamerauploads</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>Antal kolonner der skal vises</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Søjleantal</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Hvad er standard galleri filter</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Standard filter</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Hvad er standard galleri gruppe</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Standardgruppe</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Hvad er standard galleri rækkefølge</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Standard rækkefølge</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Hvad er standard gallerivisning</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Standardvisning</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>Skal gæsterne have lov til at downloade elementer</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Tillad download</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>Bredden af galleriet</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Vis type</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Efter hvor længe skal galleriet opdatere for at få nyt indhold</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Tomle Genopfrisk mins</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>Det maksimale antal elementer der skal vises pr. side</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Post pr. side</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Hvad er den største i MB en uploadet fil kan være</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Maks. filstørrelse (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>Hvor stor i MB er galleriet lov til at vokse til</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Maks. galleristørrelse (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Hvis duplikater automatisk afvises</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Forebyg duplikatorer</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Når scanner hvilken rækkefølge poster skal vises</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>Standard QR Sortér</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Når scannet hvad layout skal brugeren se</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>Standard QR Vis</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>Skal QR-koden vises</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Vis QR- kode</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>Hvis QR-koden angiver visningssproget</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Inkludér kultur i QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Et tilbud til at vise i toppen af galleriet</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Citat</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Skal elementer revideres, før de vises på stedet</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Kræv revision</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>Skal afviste genstande opbevares til senere brug</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Tilbagehold afviste elementer</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>Hvis kontroltælleren vises</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Anmeldelsestæller</value>
+  </data>
+  <data name="Settings_Gallery_SecretKey_Help" xml:space="preserve">
+    <value>Et kodeord til at låse galleriet op</value>
+  </data>
+  <data name="Settings_Gallery_SecretKey_Label" xml:space="preserve">
+    <value>Hemmelig nøgle</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>Skal brugeren kunne filtrere og gruppere medier?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Vis filtre</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>Skal titlen vises øverst i galleriet</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Vis titel</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Skal gæsterne have lov til at uploade elementer</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Tillad uploads</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Begræns uploads til en bestemt periode</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Upload perioder</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Skal Ntfy-indberetninger sendes</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>Gotify server- adressen</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Slutpunkt</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>Betydningen af indberetninger</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Prioriteret</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>Den token der bruges til godkendelse</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Adgang Token</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Identitetskontrol</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Hurtig brugere for deres navn</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>Skal identitetskontrollen vises ved sidebelastning</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Skal brugerne være forpligtet til at indtaste en e-mailadresse</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Kræv e- mail- adresse</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Hvis identitetskontrollen er nødvendig for at uploade medier</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Upload prompt</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Sprog</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>Standard hjemmeside sprog, hvis ingen er valgt</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Standardsprog</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Tillad brugere at ændre sproget</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Skal Ntfy-indberetninger sendes</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Ntfy server- adressen</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Slutpunkt</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>Betydningen af indberetninger</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Prioriteret</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>Den token der bruges til godkendelse</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Adgang Token</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>Emnet at sende advarsler til</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Emne</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>Skal brugeren se GDPR stil popups?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Slideshow</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Hvor lang tid skal overgangen mellem dias være</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Hvor længe i sekunder skal en dias vise før du flytter til næste dias</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>Det maksimale antal objektglas, der skal inkluderes</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Grænse</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>Skulle QR-koden blive disaplyed i slutningen for gæster at scanne</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Inkludér delingsdias</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>E- mail</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>Den brugervenlige afsenders navn</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Vis navn</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>Hvis der sendes e-mail-indberetninger</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>E-mailadressen er sendt fra</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>Værtsnavnet på SMTP-udbyderen</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Vært</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>Adgangskoden der bruges til at bekræfte anmodningen</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>Den havn, der anvendes af SMTP-udbyderen</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>En kommaadskilt liste over e- mail- adresser</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Modtagere</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>Bruger SMTP-udbyderen SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Brug SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>Brugernavnet bruges til at bekræfte anmodningen</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Temaer</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>Standard website tema hvis ingen er valgt</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Standard Tema</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Tillad brugere at ændre temaet</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Del kode</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sortér</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Anvendelse</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Sponsorer</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>Der er i øjeblikket ingen sponsorer. Hvorfor bliver du ikke den første!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Kunne ikke indlæse sponsorlisten</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Støttere</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Tidsstempel</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>I alt</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Ukendt revision</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Upload medier</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Uploadet af</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Uploader</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruger</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>Den medfølgende adgangskode og confrim password matcher ikke</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Tilføj bruger med samme navn findes allerede</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Brugere</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Kunne ikke få brugerlisten</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Besøg</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Advarsel</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Tør</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Er du sikker på, du vil tørre alle gallerier af?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Er du sikker på, du vil tørre galleriet af?</value>
+  </data>
+</root>

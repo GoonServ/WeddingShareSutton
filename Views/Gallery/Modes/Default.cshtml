@@ -1,0 +1,180 @@
+﻿@model WeddingShare.Models.PhotoGallery
+
+@using WeddingShare.Constants
+@using WeddingShare.Views.Gallery.Modes
+
+@{
+    var userPermissions = User?.Identity?.GetUserPermissions() ?? AccessPermissions.None;
+    var columnCount = await _settings.GetOrDefault(Settings.Gallery.Columns, 4, Model?.Gallery?.Id);
+    var identityEnabled = await _settings.GetOrDefault(Settings.IdentityCheck.Enabled, true);
+
+    try
+    {
+        switch (Model?.ViewMode ?? ViewMode.Default)
+        {
+            case ViewMode.Single:
+                {
+                    columnCount = 1;
+                    break;
+                }
+            default:
+                {
+                    if (ViewBag.IsMobile ?? false)
+                    {
+                        columnCount = 2;
+                    }
+                    else
+                    {
+                        while (12 % columnCount != 0)
+                        {
+                            columnCount--;
+                        }
+                    }
+                    break;    
+                }
+        }
+    }
+    catch { }
+
+    IEnumerable<IGrouping<string?, PhotoGalleryImage>>? imageGroups = null;
+    if (Model?.Images != null && Model.Images.Any())
+    {
+        switch (Model?.GroupBy ?? GalleryGroup.Date)
+        {
+            case GalleryGroup.Date:
+                imageGroups = Model?.Images?.GroupBy(x => (x.UploadDate != null ? x.UploadDate.Value.ToString("dddd, d MMMM yyyy") : "Unknown"));
+                switch (Model?.OrderBy ?? GalleryOrder.Descending)
+                {
+                    case GalleryOrder.Ascending:
+                        imageGroups = imageGroups?.OrderBy(x => x.FirstOrDefault()?.UploadDate ?? new DateTime());
+                        break;
+                    case GalleryOrder.Random:
+                        imageGroups = imageGroups?.OrderBy(x => Guid.NewGuid());
+                        break;
+                    default:
+                        imageGroups = imageGroups?.OrderByDescending(x => x.FirstOrDefault()?.UploadDate ?? new DateTime());
+                        break;
+                }
+                break;
+            case GalleryGroup.MediaType:
+                imageGroups = Model?.Images?.GroupBy(x => x.MediaType.ToString());
+                switch (Model?.OrderBy ?? GalleryOrder.Descending)
+                {
+                    case GalleryOrder.Ascending:
+                        imageGroups = imageGroups?.OrderBy(x => x.Key);
+                        break;
+                    case GalleryOrder.Random:
+                        imageGroups = imageGroups?.OrderBy(x => Guid.NewGuid());
+                        break;
+                    default:
+                        imageGroups = imageGroups?.OrderByDescending(x => x.Key);
+                        break;
+                }
+                break;
+            case GalleryGroup.Uploader:
+                imageGroups = Model?.Images?.GroupBy(x => x.UploadedBy ?? "Anonymous");
+                switch (Model?.OrderBy ?? GalleryOrder.Descending)
+                {
+                    case GalleryOrder.Ascending:
+                        imageGroups = imageGroups?.OrderBy(x => x.Key);
+                        break;
+                    case GalleryOrder.Random:
+                        imageGroups = imageGroups?.OrderBy(x => Guid.NewGuid());
+                        break;
+                    default:
+                        imageGroups = imageGroups?.OrderByDescending(x => x.Key);
+                        break;
+                }
+                break;
+            default:
+                imageGroups = Model?.Images?.GroupBy(x => x.GalleryName ?? "Default");
+                switch (Model?.OrderBy ?? GalleryOrder.Descending)
+                {
+                    case GalleryOrder.Ascending:
+                        imageGroups = imageGroups?.OrderBy(x => x.Key);
+                        break;
+                    case GalleryOrder.Random:
+                        imageGroups = imageGroups?.OrderBy(x => Guid.NewGuid());
+                        break;
+                    default:
+                        imageGroups = imageGroups?.OrderByDescending(x => x.Key);
+                        break;
+                }
+                break;
+        }
+    }
+}
+
+@if (imageGroups != null)
+{
+    foreach (var imageGroup in imageGroups)
+    {
+        if (Model?.GroupBy != GalleryGroup.None)
+        {
+            <h1 class="display-7">@imageGroup.Key
+                <span class="header-actions">
+                    <span class="action text-success pointer">
+                        <i class="btnDownloadGroup fa-solid fa-download" data-gallery-id="@Model?.Gallery?.Id" data-gallery-key="@(await _settings.GetOrDefault(Settings.Gallery.SecretKey, string.Empty, Model?.Gallery?.Id))" data-group-name="@((int?)Model?.GroupBy)|@imageGroup.Key" alt="@_localizer["Download"].Value"></i>
+                        <span>@_localizer["Download"].Value</span>
+                    </span>
+                </span>
+            </h1>
+        }
+
+        var imageGroupImages = Model?.OrderBy == GalleryOrder.Random ? imageGroup.OrderBy(x => Guid.NewGuid()).ToList() : imageGroup.ToList();
+        for (var columnIndex = 0; columnIndex < columnCount; columnIndex++)
+        {
+            <div class="@($"col-{12 / columnCount} mb-4 mb-lg-0 mx-0 px-1")">
+                @if (imageGroupImages != null)
+                {
+                    var index = columnIndex;
+                    while (index < imageGroupImages.Count())
+                    {
+                        var image = imageGroupImages.ElementAt(index);
+
+                        <div class="image-tile mb-2">
+                            <a href="@image.ImagePath" class="media-viewer-item" data-media-viewer-type="@image?.MediaType.ToString().ToLower()" data-media-viewer-collection="@image.GalleryName" data-media-viewer-author="@(identityEnabled ? $"{_localizer["Uploaded_By"].Value}: {(!string.IsNullOrWhiteSpace(image?.UploadedBy) ? $"{image?.UploadedBy}{(!string.IsNullOrWhiteSpace(image?.UploaderEmailAddress) && User?.Identity != null && User.Identity.IsAuthenticated ? $" - {image?.UploaderEmailAddress?.ToLower()}" : string.Empty)}" : "Anonymous")}" : string.Empty)" data-media-viewer-download="@((await _settings.GetOrDefault(Settings.Gallery.Download, true, Model?.Gallery?.Id) || (User?.Identity != null && User.Identity.IsAuthenticated)).ToString().ToLower())">
+                                <img src="@image?.ThumbnailPath" class="w-100 shadow-1-strong" loading="lazy" onerror="this.onerror=null;this.src='@image?.ThumbnailPathFallback';" />
+                                @if (image?.MediaType == MediaType.Video)
+                                {
+                                    <img src="/images/play-button.svg" class="media-viewer-play" loading="lazy" />
+                                }
+                                @if (User?.Identity != null && User.Identity.IsAuthenticated && userPermissions.HasFlag(AccessPermissions.Review_Delete))
+                                {
+                                    <i class="fa fa-trash btnDeletePhoto d-lg-none" data-photo-id="@image?.Id" data-photo-name="@image?.Name"></i>
+                                }
+                            </a>
+                        </div>
+
+                        index += columnCount;
+                    }
+                }
+            </div>
+        }
+
+        @if (Model?.LoadScripts ?? true)
+        {
+            var idleTimeout = await _settings.GetOrDefault(Settings.Gallery.IdleRefreshMins, 0, Model?.Gallery?.Id);
+            if (idleTimeout > 0)
+            {
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () { 
+                        $(function () { 
+                            var idleTimeout;
+
+                            onIdle();
+                            $(document).on('mousemove keydown scroll click', onIdle);
+
+                            function onIdle() {
+                                clearTimeout(idleTimeout);
+                                idleTimeout = setTimeout(function () {
+                                    refreshGalleryPage(onIdle);
+                                }, @TimeSpan.FromMinutes(idleTimeout).TotalMilliseconds);
+                            }
+                        });
+                    }, false);
+                </script>
+            }
+        }
+    }
+}

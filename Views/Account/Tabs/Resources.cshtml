@@ -1,0 +1,31 @@
+﻿@model ResourcesModel
+@using WeddingShare.Views.Account.Tabs
+
+@{
+    var userPermissions = User?.Identity?.GetUserPermissions() ?? AccessPermissions.None;
+}
+
+<section class="pnl-account pnl-account-custom-resources pb-0 pb-lg-4">
+    <div class="container px-3 px-lg-1 my-3 my-lg-0">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-6">@_localizer["Custom_Resources"].Value</h1>
+            </div>
+        </div>
+        @if (userPermissions.HasFlag(AccessPermissions.CustomResource_Create))
+        {
+            <div class="row mt-3 mb-4">
+                <div class="col-12">
+                    <label>@_localizer["Custom_Resources_Upload_Label"].Value</label>
+                    <input id="custom-resource-upload" class="form-control" type="file" accept="image/*" />
+                    <div class="form-text">@_localizer["Custom_Resources_Upload_Help"].Value</div>
+                </div>
+            </div>
+        }
+        <div class="row">
+            <div id="custom-resources" class="col-12 pb-3">
+                <partial name="~/Views/Account/Partials/CustomResources.cshtml" model="Model?.CustomResources" />
+            </div>
+        </div>
+    </div>
+</section>

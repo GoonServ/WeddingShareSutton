@@ -1,0 +1,1401 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\fontawesome.brands.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.brands.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\fontawesome.regular.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.regular.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\fontawesome.solid.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.solid.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\jquery.lightbox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.lightbox.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\jquery.loading.css",
+      "PackagePath": "staticwebassets\\css\\jquery.loading.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\media-viewer.css",
+      "PackagePath": "staticwebassets\\css\\media-viewer.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\template.css",
+      "PackagePath": "staticwebassets\\css\\template.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\css\\themes\\dark.css",
+      "PackagePath": "staticwebassets\\css\\themes\\dark.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\DemoImage.png",
+      "PackagePath": "staticwebassets\\images\\DemoImage.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\buymeacoffee.gif",
+      "PackagePath": "staticwebassets\\images\\buymeacoffee.gif"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\buymeacoffee_avatar.png",
+      "PackagePath": "staticwebassets\\images\\buymeacoffee_avatar.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\github.png",
+      "PackagePath": "staticwebassets\\images\\github.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\github_avatar.png",
+      "PackagePath": "staticwebassets\\images\\github_avatar.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\play-button.svg",
+      "PackagePath": "staticwebassets\\images\\play-button.svg"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\account.js",
+      "PackagePath": "staticwebassets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\gallery.js",
+      "PackagePath": "staticwebassets\\js\\gallery.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-001.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-001.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-AE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-AE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-BH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-BH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-DJ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-DJ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-DZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-DZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-EG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-EG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-ER.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-ER.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-IL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-IL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-IQ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-IQ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-JO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-JO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-KM.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-KM.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-KW.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-KW.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-LB.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-LB.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-LY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-LY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-MA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-MA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-MR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-MR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-OM.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-OM.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-PS.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-PS.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-QA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-QA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-SA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-SA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-SD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-SD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-SO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-SO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-SS.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-SS.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-SY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-SY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-TD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-TD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-TN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-TN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar-YE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar-YE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ar.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\az-Cyrl-AZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\az-Cyrl-AZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\az-Cyrl.js",
+      "PackagePath": "staticwebassets\\js\\lang\\az-Cyrl.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\az-Latn-AZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\az-Latn-AZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\az-Latn.js",
+      "PackagePath": "staticwebassets\\js\\lang\\az-Latn.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\az.js",
+      "PackagePath": "staticwebassets\\js\\lang\\az.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\bg-BG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\bg-BG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\js\\lang\\bg.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\bn-BD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\bn-BD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\bn-IN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\bn-IN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\js\\lang\\bn.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ca-AD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ca-AD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ca-ES.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ca-ES.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ca-FR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ca-FR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ca-IT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ca-IT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ca.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\cs-CZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\cs-CZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\js\\lang\\cs.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\da-DK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\da-DK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\da-GL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\da-GL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\da.js",
+      "PackagePath": "staticwebassets\\js\\lang\\da.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-AT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-AT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-BE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-BE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-CH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-CH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-DE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-DE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-IT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-IT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-LI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-LI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de-LU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-LU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\de.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\el-CY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\el-CY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\el-GR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\el-GR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\el.js",
+      "PackagePath": "staticwebassets\\js\\lang\\el.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\en-GB.js",
+      "PackagePath": "staticwebassets\\js\\lang\\en-GB.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\en.js",
+      "PackagePath": "staticwebassets\\js\\lang\\en.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\eo-001.js",
+      "PackagePath": "staticwebassets\\js\\lang\\eo-001.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\js\\lang\\eo.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-419.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-419.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-AR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-AR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-BO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-BO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-BR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-BR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-BZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-BZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-CL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-CL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-CO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-CO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-CR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-CR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-CU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-CU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-DO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-DO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-EC.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-EC.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-ES.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-ES.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-GQ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-GQ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-GT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-GT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-HN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-HN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-MX.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-MX.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-NI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-NI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-PA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-PA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-PE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-PE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-PH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-PH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-PR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-PR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-PY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-PY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-SV.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-SV.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-US.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-US.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-UY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-UY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es-VE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-VE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\es.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\et-EE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\et-EE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\et.js",
+      "PackagePath": "staticwebassets\\js\\lang\\et.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\eu-ES.js",
+      "PackagePath": "staticwebassets\\js\\lang\\eu-ES.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\js\\lang\\eu.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fa-AF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fa-AF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fa-IR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fa-IR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fa.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fi-FI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fi-FI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fi.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-029.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-029.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-BE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-BE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-BF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-BF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-BI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-BI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-BJ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-BJ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-BL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-BL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-CM.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-CM.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-DJ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-DJ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-DZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-DZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-FR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-FR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-GA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-GA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-GF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-GF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-GN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-GN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-GP.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-GP.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-GQ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-GQ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-HT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-HT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-KM.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-KM.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-LU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-LU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MC.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MC.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-ML.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-ML.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MQ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MQ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-MU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-MU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-NC.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-NC.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-NE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-NE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-PF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-PF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-PM.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-PM.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-RE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-RE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-RW.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-RW.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-SC.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-SC.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-SN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-SN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-SY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-SY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-TD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-TD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-TG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-TG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-TN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-TN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-VU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-VU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-WF.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-WF.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr-YT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-YT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ga-GB.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ga-GB.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ga-IE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ga-IE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ga.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ga.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\gl-ES.js",
+      "PackagePath": "staticwebassets\\js\\lang\\gl-ES.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\js\\lang\\gl.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\he-IL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\he-IL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\he.js",
+      "PackagePath": "staticwebassets\\js\\lang\\he.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\hi-IN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\hi-IN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\hi-Latn-IN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\hi-Latn-IN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\hi-Latn.js",
+      "PackagePath": "staticwebassets\\js\\lang\\hi-Latn.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\js\\lang\\hi.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\hu-HU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\hu-HU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\js\\lang\\hu.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\id-ID.js",
+      "PackagePath": "staticwebassets\\js\\lang\\id-ID.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\id.js",
+      "PackagePath": "staticwebassets\\js\\lang\\id.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\it-CH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\it-CH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\it-IT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\it-IT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\it-SM.js",
+      "PackagePath": "staticwebassets\\js\\lang\\it-SM.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\it-VA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\it-VA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\it.js",
+      "PackagePath": "staticwebassets\\js\\lang\\it.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ja-JP.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ja-JP.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ja.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ko-KP.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ko-KP.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ko-KR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ko-KR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ko.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\localization.js",
+      "PackagePath": "staticwebassets\\js\\lang\\localization.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\lt-LT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\lt-LT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\js\\lang\\lt.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\lv-LV.js",
+      "PackagePath": "staticwebassets\\js\\lang\\lv-LV.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\js\\lang\\lv.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ms-BN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ms-BN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ms-ID.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ms-ID.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ms-MY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ms-MY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ms-SG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ms-SG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ms.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nb-NO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nb-NO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nb-SJ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nb-SJ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nb.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-AW.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-AW.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-BE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-BE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-BQ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-BQ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-CW.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-CW.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-NL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-NL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-SR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-SR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl-SX.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-SX.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pl-PL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pl-PL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pl.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-AO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-AO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-BR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-BR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-CH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-CH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-CV.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-CV.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-GQ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-GQ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-GW.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-GW.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-LU.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-LU.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-MO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-MO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-MZ.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-MZ.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-PT.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-PT.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-ST.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-ST.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt-TL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt-TL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\js\\lang\\pt.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ro-MD.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ro-MD.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ro-RO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ro-RO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ro.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sk-SK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sk-SK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sk.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sl-SI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sl-SI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sl.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sq-AL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sq-AL.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sq-MK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sq-MK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sq-XK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sq-XK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sq.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sv-AX.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sv-AX.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sv-FI.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sv-FI.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sv-SE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sv-SE.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sv.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\th-TH.js",
+      "PackagePath": "staticwebassets\\js\\lang\\th-TH.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\th.js",
+      "PackagePath": "staticwebassets\\js\\lang\\th.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\tl.js",
+      "PackagePath": "staticwebassets\\js\\lang\\tl.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\tr-CY.js",
+      "PackagePath": "staticwebassets\\js\\lang\\tr-CY.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\tr-TR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\tr-TR.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\js\\lang\\tr.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\uk-UA.js",
+      "PackagePath": "staticwebassets\\js\\lang\\uk-UA.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\js\\lang\\uk.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ur-IN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ur-IN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ur-PK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ur-PK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\ur.js",
+      "PackagePath": "staticwebassets\\js\\lang\\ur.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hans-CN.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hans-CN.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hans-HK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hans-HK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hans-MO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hans-MO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hans-SG.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hans-SG.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hans.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hans.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hant-HK.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hant-HK.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hant-MO.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hant-MO.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hant-TW.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hant-TW.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh-Hant.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh-Hant.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zh.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\lang\\zt.js",
+      "PackagePath": "staticwebassets\\js\\lang\\zt.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\media-viewer.js",
+      "PackagePath": "staticwebassets\\js\\media-viewer.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\popup.js",
+      "PackagePath": "staticwebassets\\js\\popup.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\fontawesome\\fontawesome.brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fontawesome.brands.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\fontawesome\\fontawesome.regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fontawesome.regular.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\fontawesome\\fontawesome.solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fontawesome.solid.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-loading\\jquery.loading.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-loading\\jquery.loading.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-qrcode\\jquery.qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-qrcode\\jquery.qrcode.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\sponsors.json",
+      "PackagePath": "staticwebassets\\sponsors.json"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\WeddingShare-1.7.2\\WeddingShare\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WeddingShare.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WeddingShare.props",
+      "PackagePath": "build\\WeddingShare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WeddingShare.props",
+      "PackagePath": "buildMultiTargeting\\WeddingShare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WeddingShare.props",
+      "PackagePath": "buildTransitive\\WeddingShare.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

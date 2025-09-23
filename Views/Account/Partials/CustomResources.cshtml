@@ -1,0 +1,34 @@
+﻿@model List<CustomResourceModel>
+@using WeddingShare.Constants
+@using WeddingShare.Models.Database
+@using WeddingShare.Views.Account
+
+@{
+    var userPermissions = User?.Identity?.GetUserPermissions() ?? AccessPermissions.None;
+}
+
+<div class="row">
+    @if (userPermissions.HasFlag(AccessPermissions.CustomResource_View) && Model != null && Model.Any())
+    {
+        foreach (var resource in Model)
+        {
+            <div class="custom-resource col-12 col-lg-4 mb-1 mb-lg-4">
+                <div class="card">
+                    <a href="/custom_resources/@resource.FileName" class="media-viewer-item" data-media-viewer-type="image" data-media-viewer-collection="@resource.Id" data-media-viewer-author="@resource?.FileName" data-media-viewer-download="false">
+                        <img src="/custom_resources/@resource?.FileName" class="review-tile" loading="lazy" />
+                        @if (userPermissions.HasFlag(AccessPermissions.CustomResource_Delete))
+                        {
+                            <i class="fa fa-trash custom-resource-delete d-lg-none" data-id="@resource?.Id" data-name="@resource?.FileName"></i>
+                        }
+                    </a>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-12 text-center border rounded py-3 py-lg-4">
+            <h3 class="display-6">@_localizer["No_Custom_Resources"].Value</h3>
+        </div>
+    }
+</div>

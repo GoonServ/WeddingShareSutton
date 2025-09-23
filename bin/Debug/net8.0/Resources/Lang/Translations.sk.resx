@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Ak táto otázka pretrváva, prosím kontaktujte správcu webu</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Opps, vyzerá to, že došlo k neočakávanej chybe...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Zdá sa, že nemáte oprávnenie na zobrazenie tejto stránky...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Prístup zamietnutý</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Poskytnutý tajný kľúč bol nesprávny</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Neplatný tajný kľúč</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Zadaná gellery neexistuje a nemáte práva ju vytvoriť</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Prístup zamietnutý</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Dosiahli ste maximálny limit tvorby galérie</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>Dosiahnutý limit</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>Zadaná galéria neexistuje</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Neplatná galéria</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Akceptovať</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Činnosť</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Akcie</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Pridať</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Schválenie</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Schválené</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Bulk schválené všetky prebiehajúce preskúmania</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Objem zamietnutý všetky prebiehajúce preskúmania</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>Návštevník schválil používanie cookies</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>Vytvorená galéria</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>Vytvorený nový užívateľ</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>Vymazaný vlastný zdroj</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>Nahraný vlastný zdroj</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>Vymazaná galéria</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Vypustený užívateľ</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>Exportovať zálohu</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>Zlyhalo prihlásenie zistené</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>Zlyhaný počet prihlasovacích pokusov</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Zamrzol užívateľ</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>Importovať zálohu</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>schválené na galérii</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>vymazané z galérie</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>odmietnuté v galérii</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Koľko guľatiny ukázať</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Nepodarilo sa získať zoznam auditov</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>Odhlásený</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Audit Logy</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>Pridaný multifaktor na ich účet</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Za predpokladu správneho viacfaktorového žetónu</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Obnoviť svoj multifaktorový kľúč</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Resetovať multifaktor pre používateľa</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Záznamy filtrov založené na vyhľadávacom výraze</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Hľadaný výraz</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>Aktualizované nastavenie galérie</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Unfroze užívateľ</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>Aktualizovaná galéria</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Aktualizovaný užívateľ</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>Prihlásený užívateľ</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Utrite všetky galérie</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>Wiped galéria</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Dostupné galérie</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Nepodarilo sa skontrolovať stav účtu</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Čisté</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Si si istý, že chceš vyčistiť galériu?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Kliknite tu pre výber súborov na nahrávanie</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Prosím kontaktujte administrátora stránky, aby poskytol prístup</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Nepodarilo sa prihlásiť správu o audite pre schválenie cookie</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Zásady cookie</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Používaním tejto webovej stránky súhlasíte s používaním základných cookies v súlade s našimi podmienkami používania cookies. Viac informácií nájdete na našej</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Momentálne nemáte prístup</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Vlastné zdroje</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Nepodarilo sa získať vlastné zdroje</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Prosím vyberte súbor s obrázkom, ktorý chcete nahrať</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Odoslať vlastný zdroj</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Nepodarilo sa odstrániť vlastný zdroj</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Nepodarilo sa nahrať vlastný zdroj</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Nebezpečná zóna</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Štandardné</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Naozaj chcete vymazať túto galériu?</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Toto je demo verzia. Všetky konfigurácie sú pravidelne vymazané, aby sa zabezpečila čistá bridlica pre budúcich testerov.</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Deštruktívne konanie</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Nie ste oprávnení stiahnuť si túto galériu</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Duplikovať detekovaný súbor</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E-mailová adresa</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Vývoz</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Nepodarilo sa vytvoriť galériu</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Zlyhalo vytvorenie užívateľa</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Nepodarilo sa odstrániť galériu</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Nepodarilo sa odstrániť užívateľa</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Nepodarilo sa stiahnuť galériu</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Nepodarilo sa stiahnuť galériu. Tajný kľúč bol neplatný</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Nepodarilo sa aktualizovať galériu</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Nepodarilo sa aktualizovať užívateľa</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Nepodarilo sa exportovať údaje</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Nepodarilo sa nájsť súbor</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Nepodarilo sa importovať dáta</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Nepodarilo sa skontrolovať položku</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Nepodarilo sa aktualizovať nastavenia</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Nepodarilo sa vytrieť galérie</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Galéria zlyhala</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Nepodarilo sa stiahnuť FFMPEG na cestu</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Pokus o vytvorenie video náhľadu, ale FFMPEG ešte neskončil sťahovanie. Ak je toto nová inštalácia, prosím, počkajte na sťahovanie na dokončenie a vynechané nechty budú generované na pozadí skenera</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Nepodarilo sa nahrať súbor</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>Súbor s rovnakým názvom už existuje</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galérie</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galéria</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Požadovaná galéria nebola nájdená alebo neexistuje</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Momentálne nie sú žiadne spoločné spomienky</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Momentálne nie sú zdieľané žiadne spomienky, prečo neuploadujete vaše vyššie!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Galéria je plná a prekročila maximálnu veľkosť</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Kľúč k galérii</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Prosím, zadajte tajný kľúč.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Sem zadajte tajný kľúč</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>Maximálny povolený počet galérií sa dosiahol</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Nepodarilo sa získať zoznam galérie</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Názov galérie</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Názov galérie už existuje</value>
+  </data>
+  <data name="Gallery_Name_Help" xml:space="preserve">
+    <value>Prosím, zadajte názov galérie, ktorú chcete navštíviť.</value>
+  </data>
+  <data name="Gallery_Name_Placeholder" xml:space="preserve">
+    <value>my-svadobné-galéria</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Výber galérií</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generovať</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Skupina</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Nastala chyba pri načítavaní domovskej stránky</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Nepodarilo sa nastaviť identitu užívateľa - meno</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Nepodarilo sa nahrať obrázky</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Dovoz</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Poskytnutý prístup k tokenu bol neplatný</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Typ súboru nie je platný</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Neplatná galéria ID</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Neplatný kľúč galérie</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>Žiadosť bola podaná pomocou neplatného tajného kľúča</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Kľúč</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Spojenie</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Prihlásenie</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Nepodarilo sa prihlásiť užívateľa</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Prosím zadajte heslo k účtu.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Prosím zadajte užívateľské meno účtu.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Užívateľské meno</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Odhlásenie</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Správa dát</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Maximálna veľkosť súboru je</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Členovia</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Zlyhalo nastavenie 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Názov galérie nemôže byť prázdny</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Nové položky, ktoré čakajú na preskúmanie</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>Žiadne nahrané vlastné zdroje</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Žiadne údaje</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Pri nahrávaní neboli zistené žiadne súbory</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Zatiaľ nevytvorené galérie</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Žiadne nahrávanie pred preskúmaním</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Čakanie</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Čakajúce odosielanie</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Zlyhalo, kým sa neuploaduje</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Odmietnuť</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Verzia vydania</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Premenovať</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Zdroje</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Preskúmanie</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Uložiť QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Nepodarilo sa uložiť vlastný zdroj</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Nepodarilo sa uložiť obrázok do galérie</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Skenovanie QR kódu telefónom zdieľať obrázky</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nastavenie</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Účet</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Koľko neúspešných prihlásení pred zablokovaním užívateľa</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Pokusy o odblokovanie</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Ako dlho má byť užívateľ zablokovaný</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Zápisnica o odblokovaní</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Ak sa v hlavičke objaví ikona profilu</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Ikona profilu</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Upozornenia</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>Mali by sa zaslať upozornenia, keď sú účty zamknuté</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Uzamknutie účtu</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>Mali by sa zaslať upozornenia pri vykonaní deštruktívnej akcie</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Ničivé akcie</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>Mali by byť zaslané upozornenia pri neúspešných pokusoch o prihlásenie</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Prihlásenie zlyhalo</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>Ak sa ešte čaká na preskúmanie novej položky, mali by sa zaslať upozornenia</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Trvalé preskúmanie</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Základné služby</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Upratuje dočasné súbory</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Čistenie</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>Vyberie súbory spustené priamo do priečinku galérie</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Adresár Scanner</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Posiela správu o galérii</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>E-mailové správy</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Základné</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>Základ Url sa má používať v odkazoch a oznámeniach</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>Základný url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>Ak by bola odoslaná e-mailová správa so štatistikami galérie</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>E-mailová správa</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>Mal by Používatelia Http sú nútení na https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Force Https</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Ako používatelia vyberajú galériu</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Výber galérií Typ</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>Ak je predvolená voľba galérie viditeľná</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Zobraziť štandardnú galériu</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Ak hostia môžu vytvoriť nové galérie</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Stvorenie galérie hostí</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>Ak je tajný kľúč súčasťou kódu QR</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>Nezabezpečené QR kódy</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>Kliknutím na domovský odkaz presmerujte užívateľa</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Kliknutím na domovský odkaz</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>Ak sa odkazy otvoria v nových záložkách</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Nové odkazy na kartu</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>Ikona zobrazená v hlavičkách a záložkách</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Koľko galérií môžu užívatelia vytvoriť</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Max Galéria</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Mal by tam byť jeden alebo viac galérií</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Galéria</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Maximálne pixely v ľubovoľnom smere pre náhľady</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Rozlíšenie náhľadu</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>Názov zobrazenia v hlavičkách a záložkách</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>Obsah zobrazenia na info stránke CookiePolicy</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Vlastné zásady cookie</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Vlastné zásady</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Nepodarilo sa získať nastavenia</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Galéria je predvolená</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Aké typy súborov sú hostia môžu nahrať</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Povolené typy súborov</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Obraz na vrchu galérie</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Ak hostia majú možnosť medzi súborovým zberačom alebo fotoaparátom</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Uploady kamier</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>Počet stĺpcov na zobrazenie</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Počet stĺpcov</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Čo je predvolený filter galérie</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Štandardný filter</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Čo je predvolená skupina galérie</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Štandardná skupina</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Čo je predvolená galéria objednávka</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Štandardný príkaz</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Aký je predvolený pohľad galérie</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Štandardný pohľad</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>Ak by hostia mohli stiahnuť položky</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Povoliť stiahnutie</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>Šírka galérie</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Typ displeja</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Po ako dlho by mala galéria obnovovať získať nový obsah</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Nečinné obnovovacie minimá</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>Maximálny počet položiek na stránku</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Položky na stránku</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Čo je najväčšie v MB nahraný súbor môže byť</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Maximálna veľkosť súboru (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>Ako veľký v MB je galéria dovolené rásť</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Maximálna veľkosť galérie (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Ak sa duplicitné položky automaticky odmietnu</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Zabrániť duplicitám</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Akonáhle skener, aké poradie by sa malo objaviť položky</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>Štandardná QR Triediť</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Po naskenovaní, aké rozloženie by mal užívateľ vidieť</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>Štandardná QR Zobraziť</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>Ak sa zobrazí QR kód</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Zobraziť QR kód</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>Ak QR kód zadá jazyk zobrazenia</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Zahrnúť kultúru v QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Citáty, ktoré môžete zobraziť v hornej časti galérie</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Kótovanie</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Do položky je potrebné skontrolovať pred tým, než sa objavia na mieste</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Požadovať preskúmanie</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>Ak by sa zamietnuté položky skladovali na neskoršie použitie</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Zachovať zavrhnuté veci</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>Ak sa ukáže počítadlo preskúmania</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Počítadlo preskúmania</value>
+  </data>
+  <data name="Settings_Gallery_SecretKey_Help" xml:space="preserve">
+    <value>Heslo pre odomknutie galérie</value>
+  </data>
+  <data name="Settings_Gallery_SecretKey_Label" xml:space="preserve">
+    <value>Tajný kľúč</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>Mal by byť užívateľ schopný filtrovať a zoskupiť médiá?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Zobraziť filtre</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>V prípade zobrazenia názvu v hornej časti galérie</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Zobraziť titulok</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Ak hostia môžu nahrať položky</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Povoliť odosielanie</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Obmedzenie odosielania na konkrétne obdobie</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Obdobie odosielania</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>GotifyName</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Ak sa majú zaslať upozornenia Ntfy</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>Adresa servera Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Koncový ukazovateľ</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>Dôležitosť zápisov</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Priorita</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>Symbol používaný na autentifikáciu</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Prístupový token</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Kontrola totožnosti</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Okamžití používatelia pre svoje meno</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>Ak sa kontrola totožnosti zobrazí pri načítaní stránky</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Page Load Prompt</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Ak sa od používateľov vyžaduje zadanie e-mailovej adresy</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Požadovať e-mailovú adresu</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Ak sa vyžaduje kontrola totožnosti na nahrávanie médií</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Upload Prompt</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Jazyky</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>Štandardný jazyk webovej stránky, ak nie je vybraný</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Štandardný jazyk</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Povoliť používateľom zmeniť jazyk</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Ak sa majú zaslať upozornenia Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Adresa servera Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Koncový ukazovateľ</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>Dôležitosť zápisov</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Priorita</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>Symbol používaný na autentifikáciu</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Prístupový token</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>Téma posielania upozornení</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Téma</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>Mal by užívateľ vidieť GDPR vyskakovanie štýlu?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Prezentácia</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Ako dlho by mal byť prechod medzi sklíčkami</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Zoslabiť</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Ako dlho v sekundách by mal slide show pred presunom na ďalšie slide</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>Maximálny počet snímok, ktoré sa majú zahrnúť</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>Ak QR kód byť znechutený na konci pre hostí skenovať</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Zahrnúť prezentáciu zdieľania</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>E- mail</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>Užívateľsky priateľské meno odosielateľa</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Názov zobrazenia</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>Ak sa zasielajú e-mailové upozornenia</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>E-mailová adresa, z ktorej je zápis odoslaný</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Od</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>Názov hostiteľa poskytovateľa SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Hostiteľ</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>Heslo použité na overenie žiadosti</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>Port používaný poskytovateľom SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Prístav</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Príjemcovia</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>Používa poskytovateľ SMTP SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Použiť SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>Užívateľské meno používané na overenie žiadosti</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Užívateľské meno</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Témy</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>Štandardná téma webovej stránky, ak žiadny nie je vybraný</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Štandardné Téma</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Povoliť používateľom zmeniť tému</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Povolené</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Kód zdieľania</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Triediť</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Použitie</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Sponzori</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>V súčasnosti nie sú žiadni sponzori. Prečo sa nestaneš prvým!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Nepodarilo sa načítať zoznam sponzorov</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Priaznivci</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Časová pečiatka</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Spolu</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Neznáme preskúmanie</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aktualizácia</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Odoslať médiá</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Nahrané</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Uploader</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Užívateľ</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>Zadané heslo a confrim heslo nezodpovedá</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Pridať užívateľa s rovnakým názvom už existuje</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Užívateľské meno</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Používatelia</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Nepodarilo sa získať zoznam používateľov</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Zobraziť</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Návšteva</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Varovanie</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Utrite</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Si si istý, že chceš vymazať všetky galérie?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Si si istý, že chceš vymazať túto galériu?</value>
+  </data>
+</root>
