@@ -16,6 +16,6 @@ namespace WeddingShare
                 .UseIIS()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseStartup<Startup>()
-                .UseUrls("http://*:5000");
+                .UseUrls($"http://*:{Environment.GetEnvironmentVariable("PORT") ?? "5000"}");
     }
 }
