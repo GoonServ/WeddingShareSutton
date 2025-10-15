@@ -32,9 +32,8 @@ namespace WeddingShare
         {
             var config = new ConfigHelper(new EnvironmentWrapper(), Configuration, _loggerFactory.CreateLogger<ConfigHelper>());
 
-           string storageAccountName = "suttonwedding2025";
            services.AddSingleton(new BlobServiceClient(
-    new Uri($"https://{suttonwedding2025}.blob.core.windows.net"),
+    new Uri("https://suttonwedding2025.blob.core.windows.net"),
     new DefaultAzureCredential()));
            
            

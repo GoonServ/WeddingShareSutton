@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeddingShare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b583b0cc5a90925b541aaa0c4f302eef40f3952")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4cd9efc32de811a179c28912ac783f8c806d32")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeddingShare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeddingShare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
