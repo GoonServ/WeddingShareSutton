@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/acbdd728-c10b-4320-bc6b-8f528cf0615c/resourceGroups/weddingshare-sutton_group/providers/Microsoft.Web/sites/WeddingShare-Sutton"
+}
