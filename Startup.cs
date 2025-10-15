@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Azure.Identity;
+using Azure.Storage.Blobs;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Localization;
@@ -30,6 +32,12 @@ namespace WeddingShare
         {
             var config = new ConfigHelper(new EnvironmentWrapper(), Configuration, _loggerFactory.CreateLogger<ConfigHelper>());
 
+           string storageAccountName = "suttonwedding2025";
+           services.AddSingleton(new BlobServiceClient(
+    new Uri($"https://{suttonwedding2025}.blob.core.windows.net"),
+    new DefaultAzureCredential()));
+           
+           
             services.AddExceptionHandler<GlobalExceptionHandler>();
             services.AddProblemDetails();
 
